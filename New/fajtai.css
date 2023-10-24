@@ -1,0 +1,76 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+#label {
+    color: #fff;
+    margin-right: 600px;
+    font-size: x-large;
+    position: absolute;
+    left: 10px;
+}
+
+#gombok {
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+    margin: 0;
+    padding: 0;
+    margin-right: 680px;
+    font-family: sans-serif;
+    position: absolute;
+    left: 33%;
+    text-align: center;
+    top: 18px;
+}
+
+#gombok li {
+    margin: 0 10px;
+}
+
+#gombok a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#gombok a:hover {
+    text-decoration: underline;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+.normal {
+    font-weight: normal;
+}
+
+#fej {
+    text-align: left;
+    font-size: 4rem;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+p {
+    font-size: 3rem;
+}
+
+.nagykezdobetu::first-letter {
+    font-size: 5rem;
+}
+
+h3 {
+    font-size: 3.5rem;
+}
